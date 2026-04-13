@@ -1,0 +1,14 @@
+[2026-04-13T19:24:32Z] === ENRICH ITERATION 1 START | repo=tkellen/js-matchdep sha=5d2e1bc6 ===
+[2026-04-13T19:24:32Z] [iter=1] PHASE START: enrich repo=tkellen/js-matchdep sha=5d2e1bc6 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5d2e1bc6-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5d2e1bc61127ec6d0c95019a234daca40d2cb830.nq.gz
+[2026-04-13T19:24:36Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-13T19:24:37Z] [iter=1] AST store loaded triples=7317 load_secs=1 mem_mb=94 MB
+[2026-04-13T19:24:37Z] [iter=1] Step 2: Finding LSP targets mem_mb=94 MB
+[2026-04-13T19:24:37Z] [iter=1] LSP targets found call_sites=94 imports=0 extends=0 implements=0 secs=0
+[2026-04-13T19:24:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=94 MB
+[2026-04-13T19:24:37Z] [iter=1] Position index built positions=505 nodes_with_types=610 secs=0 mem_mb=94 MB
+[2026-04-13T19:24:37Z] [iter=1] Step 3: Starting LSP resolution mem_mb=94 MB already_completed_types=[] already_completed_files=0
+[2026-04-13T19:24:37Z] [iter=1] Resolving target type target_type=call_site count=94
+[2026-04-13T19:24:39Z] [iter=1] Target type resolved target_type=call_site resolved=3 errors=79 secs=2 mem_mb=94 MB
+[2026-04-13T19:24:41Z] [iter=1] Step 5: Writing final enrichment file triples=641
+[2026-04-13T19:24:41Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5d2e1bc61127ec6d0c95019a234daca40d2cb830.nq.gz size_kb=7
+[2026-04-13T19:24:41Z] [iter=1] PHASE END: enrich elapsed_s=9 elapsed_min=0.1 total_triples=641
