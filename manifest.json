@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1.0",
+  "org": "tkellen",
+  "repo": "js-matchdep",
+  "versions": [
+    {
+      "commit": "5d2e1bc61127ec6d0c95019a234daca40d2cb830",
+      "parsed_at": "2026-04-13T18:55:23.728786+00:00",
+      "tag": "v2.0.0",
+      "filetree": "filetree/5d2e1bc61127ec6d0c95019a234daca40d2cb830.nq.gz",
+      "blobs": [
+        "blob/871895220b37a1e5081fed27e4d3b289be349c41.nq.gz",
+        "blob/2ccbe4656c6078ded72491cf2ee9c5ec20219624.nq.gz",
+        "blob/605bbb471d430801c008dd0e685152eca21fd58d.nq.gz",
+        "blob/efbdb9a9b7c31a75b0aed965b47c21bf62ddd7c1.nq.gz",
+        "blob/03c0d754579284ea99beeb5af09067cfd4f12bb1.nq.gz",
+        "blob/e30f600641a2852a5a614bd8b207e6b3bb39c6a2.nq.gz",
+        "blob/8238c9f2c38a2c57b39f1265ecde6ea2e74743b0.nq.gz",
+        "blob/2fa03a84189eae0d46b3777c742f048e90a04ea7.nq.gz",
+        "blob/6abb72e1e92290c5acb68d1e92b4e22638804a67.nq.gz",
+        "blob/874a8ce56eb4e886c783359ea4709bdcbe520a12.nq.gz",
+        "blob/3b3d57f35c16c93a70002bf3e42ab88fd9b2cc3d.nq.gz",
+        "blob/85ab669558d128631695f63b0fca8b04d1363dd1.nq.gz",
+        "blob/229016a3568ee54536d424b52eb29624ff0ad86f.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}
